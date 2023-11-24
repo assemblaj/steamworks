@@ -4,8 +4,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/BenLubar/steamworks"
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // Reliability specifies the send type of SendPacket.

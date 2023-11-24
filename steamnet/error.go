@@ -1,8 +1,8 @@
 package steamnet
 
 import (
-	"github.com/BenLubar/steamworks"
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // RegisterErrorCallback registers a function to be called when packets can't

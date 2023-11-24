@@ -1,6 +1,6 @@
 package steamcontroller
 
-import "github.com/BenLubar/steamworks/internal"
+import "github.com/assemblaj/steamworks/internal"
 
 // SourceMode is the virtual input mode imposed by the configurator upon a
 // controller source. For instance, the configurator can make an analog

@@ -3,7 +3,7 @@ package steamcontroller
 import (
 	"unsafe"
 
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // ActionSetHandle is used to refer to specific in-game actions or action sets.
@@ -18,22 +18,22 @@ type ActionSetHandle = internal.ControllerActionSetHandle
 //
 // Example:
 //
-//    func updateStateLoop(current steamcontroller.Handle) {
-//        switch currentState {
-//        case MENU:
-//            steamcontroller.ActivateActionSet(current, menuSetHandle)
-//            doMenuStuff()
-//        case WALKING:
-//            steamcontroller.ActivateActionSet(current, walkingSetHandle)
-//            doWalkingStuff()
-//        case DRIVING:
-//            steamcontroller.ActivateActionSet(current, drivingSetHandle)
-//            doDrivingStuff()
-//        case FIGHTING:
-//            steamcontroller.ActivateActionSet(current, fightingSetHandle)
-//            doFightingStuff()
-//        }
-//    }
+//	func updateStateLoop(current steamcontroller.Handle) {
+//	    switch currentState {
+//	    case MENU:
+//	        steamcontroller.ActivateActionSet(current, menuSetHandle)
+//	        doMenuStuff()
+//	    case WALKING:
+//	        steamcontroller.ActivateActionSet(current, walkingSetHandle)
+//	        doWalkingStuff()
+//	    case DRIVING:
+//	        steamcontroller.ActivateActionSet(current, drivingSetHandle)
+//	        doDrivingStuff()
+//	    case FIGHTING:
+//	        steamcontroller.ActivateActionSet(current, fightingSetHandle)
+//	        doFightingStuff()
+//	    }
+//	}
 func ActivateActionSet(controller Handle, actionSet ActionSetHandle) {
 	defer cleanup()()
 

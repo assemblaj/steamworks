@@ -4,8 +4,8 @@
 package steamauth
 
 import (
-	"github.com/BenLubar/steamworks"
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // SessionStatus represents the current status of an authentication session.
