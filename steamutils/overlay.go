@@ -4,7 +4,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // OverlayNeedsPresent checks if the Overlay needs a present.

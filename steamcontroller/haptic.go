@@ -3,7 +3,7 @@ package steamcontroller
 import (
 	"time"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // Pad is a touchpad region on a Steam Controller Device.

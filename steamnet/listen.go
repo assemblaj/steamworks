@@ -7,8 +7,8 @@
 package steamnet
 
 import (
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // Listen registers a function to handle connection requests.
@@ -20,7 +20,7 @@ import (
 // accepted if any listener returns true.
 func Listen(accept func(steamworks.SteamID) bool) steamworks.Registration {
 	return internal.RegisterCallback_P2PSessionRequest(func(data *internal.P2PSessionRequest, _ bool) {
-		id := internal.SteamID(data.SteamIDRemote.Get())
+		id := internal.SteamID(internal.Uint64AlignedGet(data.SteamIDRemote))
 		if accept(steamworks.SteamID(id)) {
 			internal.SteamAPI_ISteamNetworking_AcceptP2PSessionWithUser(id)
 		}

@@ -12,10 +12,8 @@
 #pragma once
 #endif
 
-#ifdef POSIX
-#ifndef _snprintf
-#define _snprintf snprintf
-#endif
+#ifndef n_snprintf
+#define n_snprintf snprintf
 #endif
 
 #include <stdio.h>

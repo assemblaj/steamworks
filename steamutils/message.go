@@ -3,8 +3,8 @@ package steamutils
 import (
 	"sync"
 
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 func init() {

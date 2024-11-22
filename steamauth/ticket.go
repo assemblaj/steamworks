@@ -3,7 +3,7 @@ package steamauth
 import (
 	"unsafe"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // CreateTicket generates a sequence of bytes that verifies your identity and

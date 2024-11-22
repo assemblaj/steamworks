@@ -13,8 +13,8 @@ package steamutils
 import (
 	"time"
 
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // CurrentBatteryPower returns the current battery power percentage from

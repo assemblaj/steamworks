@@ -13,8 +13,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // All session mutations are protected by this global lock.

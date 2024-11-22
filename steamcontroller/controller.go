@@ -9,7 +9,7 @@
 // <https://partner.steamgames.com/doc/features/steam_controller>
 package steamcontroller
 
-import "github.com/assemblaj/steamworks/internal"
+import "github.com/BenLubar/steamworks/internal"
 
 // STEAM_CONTROLLER_MAX_COUNT
 const maxControllers = 16

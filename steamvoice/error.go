@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // Errors returned by this package.

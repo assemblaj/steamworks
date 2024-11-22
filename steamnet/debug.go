@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"net"
 
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // SessionState is the current connection state to a specified user, returned

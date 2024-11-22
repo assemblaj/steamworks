@@ -3,7 +3,7 @@ package steamworks
 import (
 	"strconv"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 const (

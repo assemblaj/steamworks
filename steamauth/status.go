@@ -4,8 +4,8 @@
 package steamauth
 
 import (
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // SessionStatus represents the current status of an authentication session.
@@ -68,8 +68,8 @@ var initOnce internal.Once
 
 func doInit() {
 	internal.RegisterCallback_ValidateAuthTicketResponse(func(data *internal.ValidateAuthTicketResponse, _ bool) {
-		claimedID := steamworks.SteamID(data.SteamID.Get())
-		ownerID := steamworks.SteamID(data.OwnerSteamID.Get())
+		claimedID := steamworks.SteamID(internal.Uint64AlignedGet(data.SteamID))
+		ownerID := steamworks.SteamID(internal.Uint64AlignedGet(data.OwnerSteamID))
 		status := SessionStatus(data.EAuthSessionResponse + 2)
 
 		sessionLock.Lock()

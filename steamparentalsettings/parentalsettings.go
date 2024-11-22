@@ -1,8 +1,8 @@
 package steamparentalsettings
 
 import (
-	"github.com/assemblaj/steamworks"
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 func OnChanged(f func()) steamworks.Registration {

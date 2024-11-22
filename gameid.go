@@ -4,7 +4,7 @@ import (
 	"hash/crc32"
 	"path/filepath"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // AppID is a numeric identifier for a Steam app.

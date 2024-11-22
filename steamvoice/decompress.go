@@ -3,7 +3,7 @@ package steamvoice
 import (
 	"unsafe"
 
-	"github.com/assemblaj/steamworks/internal"
+	"github.com/BenLubar/steamworks/internal"
 )
 
 // OptimalSampleRate returns the native sample rate of the Steam voice decoder.
