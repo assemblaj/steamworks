@@ -3,7 +3,7 @@ package steamcontroller
 import (
 	"unsafe"
 
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // DigitalActionHandle is a handle to a digital action. This can be obtained

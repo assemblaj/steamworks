@@ -1,6 +1,6 @@
 package steamutils
 
-import "github.com/BenLubar/steamworks/internal"
+import "github.com/assemblaj/steamworks/internal"
 
 // IsSteamRunningInVR returns true if Steam itself is running in VR mode.
 func IsSteamRunningInVR() bool {

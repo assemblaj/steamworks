@@ -1,6 +1,6 @@
 package steamcontroller
 
-import "github.com/BenLubar/steamworks/internal"
+import "github.com/assemblaj/steamworks/internal"
 
 // STEAM_CONTROLLER_MAX_ORIGINS
 const maxOrigins = 8

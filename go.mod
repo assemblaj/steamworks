@@ -1,4 +1,4 @@
-module github.com/BenLubar/steamworks
+module github.com/assemblaj/steamworks
 
 go 1.20
 

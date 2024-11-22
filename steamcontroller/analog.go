@@ -3,7 +3,7 @@ package steamcontroller
 import (
 	"unsafe"
 
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // AnalogActionHandle is a handle to an analog action. This can be obtained

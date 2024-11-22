@@ -7,8 +7,8 @@
 package steamnet
 
 import (
-	"github.com/BenLubar/steamworks"
-	"github.com/BenLubar/steamworks/internal"
+	"github.com/assemblaj/steamworks"
+	"github.com/assemblaj/steamworks/internal"
 )
 
 // Listen registers a function to handle connection requests.
