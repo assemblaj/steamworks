@@ -127,3 +127,8 @@ func GetSteamID() SteamID {
 
 	return SteamID(internal.SteamAPI_ISteamUser_GetSteamID())
 }
+
+// GetPersonaName returns the Persona Name associated with the current user.
+func GetPersonaName() string {
+	return internal.GoString(internal.SteamAPI_ISteamFriends_GetPersonaName())
+}
